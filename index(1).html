@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <meta name="viewport" content="width=device-width.initial-scale=1.0">
+  <title>Katik Persegi</title>
+</head>
+<body>
+  <script src="scripts/revoU js.js"></script>
+  <header>
+    <h1>
+    Kalkulator Luas dan Keliling Persegi
+    </h1>
+    <img src="https://images.app.goo.gl/8qgzYBpX2PZnizip9" alt="gambar persegi"> <br>
+  </header>
+  <div class="inputSection">
+    <label for="sisi" id="lblsisi">Hitung Luas Persegi</label>
+    <input type="number" id="sisi" oninput="luas()">
+    <p>Luas Persegi adalah<span id="luas"></span></p>
+  </div>
+  <div id="output"></div>
+  <div class="buttons">
+    <button class="countButton">Hitung</button>
+    <button class="resetButton">Reset</button>
+  </div>
+  <br>
+  <div class="inputSection">
+    <label for="sisi" id="lblsisi">Hitung Keliling Persegi</label>
+    <input type="number" id="sisi" oninput="kel()">
+    <p>Keliling Persegi adalah<span id="kel"></span></p>
+  </div>
+  <div id="output"></div>
+  <div class="buttons">
+    <button class="countButton">Hitung</button>
+    <button class="resetButton">Reset</button>
+  </div>
+  
+  <p>Catatan:</p>
+  <p>Rumus Luas Persegi : L=s*s</p>
+  <p>Rumus Keliling Persegi : K=4s</p>
+  <p>dengan</p>
+  <p>L=luas</p>
+  <p>K=keliling</p>
+  <p>s=sisi</p>
+  
+  <header>
+    <h5>
+    web ini digunakan untuk menghitung luas dan keliling persegi dalam rangka menyelesaikan tugas mini project dari RevoU
+    </h5>
+  </header>
+</body>
+</html>
+

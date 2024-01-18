@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, courier, verdana;
+  background-color: aquamarine;
+}
+header{
+  text-align: center;  
+}
+header h1 {
+  background-color: skyblue;
+  color:#ffA500;
+  
+}
+img {
+  width: 40%;
+  height: 40%;
+}
+.inputSection {
+  display: flex;
+  flex-direction: column;
+}
+#squareSide {
+  outline: none;
+  border: solid #ff4500;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2px;
+}
+#squareSide: focus {
+  border: solid#ff8c00;
+}
+button {
+  background-color: darkcyan;
+  color: whitesmoke;
+  border: none;
+  border-radius: 7px;
+  padding: 7px;
+  cursor: pointer;
+  margin: 2px;
+  margin-bottom: 20px;
+}
+button: hover {
+  background-color: blue;
+}
+button: active {
+  background-color: blueviolet;
+  transform: translateY(8px);
+}
+p{
+  color: darkviolet;
+  font-size: 75%;
+  padding-left: 10px;
+}
+header h5{
+  font-size: 75%;
+  color: #8a2be2;
+  padding-top: 150px;
+}
+
+
